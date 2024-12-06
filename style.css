@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    margin: 0;
+    background: rgba(26, 34, 36, 1);
+    font-family: Raleway, sans-serif;
+    color: #F6EEE1;
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap; */
+}
+
+header {
+    background: #F6EEE1;
+    color: rgba(26, 34, 36, 1);
+    height: 40%;
+}
+
+header p {
+    font-family: Lekton, serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+}
+
+article {
+    background: #8D0148;
+    height: 100%;
+}
+
+aside {
+    display: flex;
+    width: 30%;
+    margin: 25px auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside img {
+    width: 250px;
+    border-radius: 10%;
+}
